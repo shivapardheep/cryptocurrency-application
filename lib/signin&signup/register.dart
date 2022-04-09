@@ -4,6 +4,7 @@ import 'package:crypo_app/signin&signup/register.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
+import '../Pages/Home Page.dart';
 import '../utils/color.dart';
 
 class RegisterPage extends StatefulWidget {
@@ -41,7 +42,15 @@ class _RegisterPageState extends State<RegisterPage> {
             "password": pass,
           })
           .then((value) => print("User Added"))
-          .catchError((error) => print("Failed to add user: $error"));
+          .catchError((error) => print("Failed to add user: $error"))
+          .then((value) {
+            setState(() {
+              Navigator.pushAndRemoveUntil(
+                  context,
+                  MaterialPageRoute(builder: (_) => HomePage()),
+                  (route) => false);
+            });
+          });
 
       //
     } on FirebaseAuthException catch (e) {
