@@ -31,7 +31,7 @@ class _DrawerPageState extends State<DrawerPage> {
         height: _size.height,
         width: _size.width,
         decoration: BoxDecoration(
-          color: primaryGreen,
+          color: primaryblue,
           // gradient: LinearGradient(colors: [
           //   primaryGreen,
           //   // Colors.lightGreen,

@@ -81,7 +81,7 @@ class _RegisterPageState extends State<RegisterPage> {
     var _height = MediaQuery.of(context).size.height;
     var _width = MediaQuery.of(context).size.height;
     return Scaffold(
-      resizeToAvoidBottomInset: false,
+      resizeToAvoidBottomInset: true,
       // backgroundColor: Colors.grey[300],
       body: SingleChildScrollView(
         child: Form(
@@ -95,7 +95,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     height: _height * 0.4,
                     decoration: BoxDecoration(
                         gradient: LinearGradient(
-                            colors: [orangeColors, orangeLightColors],
+                            colors: [color1, color2],
                             end: Alignment.bottomCenter,
                             begin: Alignment.topCenter),
                         borderRadius: BorderRadius.only(
@@ -170,7 +170,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         height: 50,
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
-                              colors: [orangeColors, orangeLightColors],
+                              colors: [color1, color2],
                               end: Alignment.centerLeft,
                               begin: Alignment.centerRight),
                           borderRadius: const BorderRadius.all(
@@ -208,8 +208,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                 text: "Already a member ? ",
                                 style: TextStyle(color: Colors.black)),
                             TextSpan(
-                                text: "Login",
-                                style: TextStyle(color: orangeColors)),
+                                text: "Login", style: TextStyle(color: color1)),
                           ]),
                         ),
                       ),
