@@ -38,10 +38,10 @@ class _SplashPageState extends State<SplashPage> {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
-          gradient: LinearGradient(
-              colors: [orangeColors, orangeLightColors],
-              end: Alignment.bottomCenter,
-              begin: Alignment.topCenter),
+          gradient: LinearGradient(colors: [
+            orangeColors,
+            orangeLightColors.withOpacity(0.9),
+          ], begin: FractionalOffset(0, 0.4), end: Alignment.topRight),
         ),
         child: Center(
           child: Image.asset(

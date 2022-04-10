@@ -1,0 +1,83 @@
+[
+  {
+    "country": "USA",
+    "flag": "assets/flags/United_States_of_America.png"
+  },
+  {
+    "country": "Hong Kong",
+    "flag": "assets/flags/Hong_Kong.png"
+  },
+  {
+  "country": "UAE",
+  "flag": "assets/flags/UAE.png"
+},
+  {
+  "country": "El Salvador",
+  "flag": "assets/flags/El_Salvador.png"
+},
+  {
+  "country": "Nigeria",
+  "flag": "assets/flags/Nigeria.png"
+},
+  {
+  "country": "Morocco",
+  "flag": "assets/flags/Morocco.png"
+},
+  {
+  "country": "South Africa",
+  "flag": "assets/flags/South_Africa.png"
+},
+  {
+  "country": "Venezuela",
+  "flag": "assets/flags/Venezuela.png"
+},
+  {
+  "country": "Cambodia",
+  "flag": "assets/flags/Cambodia.png"
+},
+  {
+  "country": "Nepal",
+  "flag": "assets/flags/Nepal.png"
+},
+  {
+  "country": "Ukraine",
+  "flag": "assets/flags/Ukraine.png"
+},
+  {
+  "country": "Egypt",
+  "flag": "assets/flags/Egypt.png"
+},
+  {
+  "country": "Ecuador",
+  "flag": "assets/flags/Ecuador.png"
+},
+  {
+    "country": "Vietnam",
+    "flag": "assets/flags/Vietnam.png"
+  },
+  {
+    "country": "Bolivia",
+    "flag": "assets/flags/Bolivia.png"
+  },
+  {
+    "country": "Mexico",
+    "flag": "assets/flags/Mexico.png"
+  },
+  {
+    "country": "Bangladesh",
+    "flag": "assets/flags/Bangladesh.png"
+  },
+  {
+    "country": "Malaysia",
+    "flag": "assets/flags/Malaysia.png"
+  },
+  {
+    "country": "india",
+    "flag": "assets/flags/India.png"
+  },
+  {
+    "country": "Brazil",
+    "flag": "assets/flags/Brazil.png"
+  }
+
+]
